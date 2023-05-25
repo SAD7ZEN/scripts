@@ -1,41 +1,103 @@
-# Compiled Lua sources
-luac.out
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("KLasPx من مابات سكربتات  ", "Midnight")
+local KATab = Window:NewTab("KAT ماب")
+local DOORSTab = Window:NewTab("DOORS ماب")
+local ArsenalTab = Window:NewTab("Arsenal ماب")
+local BrookhavenTab = Window:NewTab("BrookhavenRP ماب")
+local BloxTab = Window:NewTab("Blox Fruits ماب")
+local LUCKYTab = Window:NewTab("LUCKY BLOCKS ماب")
+local NEWSTab = Window:NewTab("قريبا")
+local NEWSTab = Window:NewTab("قريبا")
+local NEWSTab = Window:NewTab("قريبا")
+local O5RTab = Window:NewTab("اخرى")
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+local KAT = KATab:NewSection("KAT سكربت اول")
+local KATT = KATab:NewSection("KAT سكربت ثاني")
+local KATTT = KATab:NewSection("KAT سكربت ثالث")
+local DOORS = DOORSTab:NewSection("DOORS سكربت اول")
+local DOORSS = DOORSTab:NewSection("DOORS سكربت ثاني")
+local DOORSSS = DOORSTab:NewSection("DOORS سكربت ثالث")
+local Arsenal = ArsenalTab:NewSection("Arsenal سكربت اول")
+local Arsenall = ArsenalTab:NewSection("Arsenal سكربت ثاني")
+local Arsenalll = ArsenalTab:NewSection("Arsenal سكربت ثالث")
+local Brookhaven = BrookhavenTab:NewSection("Brookhaven سكربت اول")
+local Blox = BloxTab:NewSection("Blox Fruits سكربت اول")
+local Bloxx = BloxTab:NewSection("Blox Fruits سكربت ثاني")
+local Bloxxx = BloxTab:NewSection("Blox Fruits سكربت ثالث")
+local LUCKY = LUCKYTab:NewSection("LUCKY BLOCKS سكربت اول ")
+local LUCKYY = LUCKYTab:NewSection("LUCKY BLOCKS سكربت ثاني")
+local LUCKYYY = LUCKYTab:NewSection("LUCKY BLOCKS سكربت ثالث")
+local O5RS = O5RTab:NewSection("المشاكل بعض حل قريبا يكون سوف")
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+KATTT:NewButton("تفعيل", "AimBot", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectable/main/MrPectable.lua"))()
+end)
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+KATT:NewButton("تفعيل", "AimBot more ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Harley-HUB/Kat/main/KKat", true))()
+end)
 
+
+KAT:NewButton("تفعيل", "God mode, Silent aim, Esp", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
+end)
+
+DOORS:NewButton("تفعيل", "Instant Interact, Skip This Level, No Screech", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+end)
+
+DOORSS:NewButton("تفعيل", "Fullbright, Entity Notifications, Esp Books", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/prosko1234/doorshub/main/doors.lua"))();
+end)
+
+DOORSSS:NewButton("تفعيل", "Noclip, Fullbright, Key Aura", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9TvyBTCb"))()
+end)
+
+
+Arsenal:NewButton("تفعيل", "Fly, Walkspeed, Fast Heal", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectable/main/MrPectable.lua"))()
+end)
+
+Arsenall:NewButton("تفعيل", "Silent Aim, Kill All, Aimlock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectable/main/MrPectable.lua"))()
+end)
+
+Arsenalll:NewButton("تفعيل", "AimBot, Esp", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/safasfasf", true))()
+end)
+
+Brookhaven:NewButton("تفعيل", "[ADMIN-PANEL]", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Blox:NewButton("تفعيل", "Boss Farm, Auto Quests & More", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/minded102/dokinbog/main/README.md", true))()
+end)
+
+Bloxx:NewButton("تفعيل", "Auto Farm Level, Mob Aura Farm & More", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+end)
+
+Bloxxx:NewButton("تفعيل", "Aimbot, Auto Rejoin, Fast Attack", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Sixnumz/ZamexMobile/main/Zamex_Mobile.lua'))()
+end)
+
+LUCKY:NewButton("تفعيل", "Fly, TP Tool, Blocks Giver", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/romkich09/MainForRealium/main/ForRealium'),true))()
+end)
+
+LUCKYY:NewButton("تفعيل", "Fly, Auto Hatch Blocks", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PlanetHubX/Lucky-Blocks/main/source", true))()
+end)
+
+LUCKYYY:NewButton("تفعيل", "Hitbox Expander, Walkspeed, Open Blocks", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+end)
+
+O5RS:NewButton("الوصف اقرا", " قريبا ماتشتغل السكربتات بعض و السكربتات بعض في المفتاح طلب اصلاح مثل", function()
+
+end)
